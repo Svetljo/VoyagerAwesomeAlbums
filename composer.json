@@ -18,6 +18,7 @@
         }
     },
     "minimum-stability": "stable",
+    "verison":"1.0",
     "prefer-stable" : true,
     "extra": {
         "laravel": {
