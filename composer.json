@@ -1,0 +1,32 @@
+{
+    "name": "trker/voyager-awesome-albums",
+    "description": "Easy quick album creation tool for voyager admin",
+    "keywords": ["laravel", "voyager admin", "awesome albums"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adem Türker",
+            "email": "ademtrker@gmail.com"
+        }
+    ],
+    "require": {
+        "tcg/voyager": "~1.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "trker\\VoyagerAwesomeAlbums\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable" : true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "trker\\VoyagerAwesomeAlbums\\VoyagerAwesomeAlbumsServiceProvider"
+            ],
+            "aliases": {
+                "VoyagerAlbums": "trker\\VoyagerAwesomeAlbums\\VoyagerAlbums"
+            }
+        }
+    }
+}
