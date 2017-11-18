@@ -20,6 +20,7 @@
 # Gradle:
 .idea/**/gradle.xml
 .idea/**/libraries
+
 # CMake
 cmake-build-debug/
 
@@ -70,4 +71,3 @@ Homestead.json
 # Rocketeer PHP task runner and deployment package. https://github.com/rocketeers/rocketeer
 .rocketeer/
 
-.idea/inspectionProfiles/
