@@ -37,11 +37,12 @@ Voyager Admin v1.0
  
 
 <h2>Install</h2>
+<pre>
+composer require trker/voyager-awesome-albums
+</pre>
+
 
 Add Service Provider(config/app)
-<pre>
-composer require trker/voyager-awesome-albums @dev
-</pre>
 
 <br>
 <pre>
