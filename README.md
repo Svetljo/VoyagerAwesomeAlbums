@@ -56,7 +56,7 @@ Add Aliases
 </pre>
  <h2>Run code in your directory.</h2>
 <pre>
- php artisan vender:publish --provider="trker\VoyagerAwesomeAlbums\VoyagerAwesomeAlbumsServiceProvider"
+ php artisan vendor:publish --provider="trker\VoyagerAwesomeAlbums\VoyagerAwesomeAlbumsServiceProvider"
 </pre>
 <br>
 Voyager automatically loads when you login to admin and gives admin permission to role play.
