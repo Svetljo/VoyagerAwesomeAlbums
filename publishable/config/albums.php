@@ -1,8 +1,7 @@
+
 <?php
 
-return array(
-
-
+return [
 
     'albums_shortcode' => true, //albums shortcode
 
@@ -21,7 +20,5 @@ return array(
     ],
 //it should not be used this way  " image_folder'=>url(/storage"), otherwise the console will give the error."
     'image_folder'=>config('app.url')."/storage",
+];
 
-
-
-);
