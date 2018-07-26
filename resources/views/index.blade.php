@@ -410,7 +410,7 @@
 				<a  href="{!! route('voyager.albums.create') !!}" class="btn btn-success btn-add-new">
 					<i class="voyager-plus"></i> <span>{!! __('albums_lang.new_albums_btn') !!}</span>
 				</a>
-				<a href="{!! route('voyager.database.bread.edit',["voyager_albums"]) !!}" style="float: none;" class="voyager-params albums-options"></a>
+				<a href=" " style="float: none;" class="voyager-params albums-options"></a>
 
 			</div>
 			<div class="panel">

@@ -531,7 +531,7 @@
                         </div><!-- panel-body -->
 
                         <div class="panel-footer">
-                            <button type="submit" class="btn btn-primary save">{{ __('voyager.generic.save') }}</button>
+                            <button type="submit" class="btn btn-primary save">{{ __('albums_lang.album_post.save') }}</button>
                         </div>
                     </form>
 

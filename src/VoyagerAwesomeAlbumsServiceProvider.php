@@ -23,6 +23,9 @@ class VoyagerAwesomeAlbumsServiceProvider extends ServiceProvider
 
     public function boot(){
         $this->registerPublishableResources();
+        app(Dispatcher::class)->listen('voyager.admin.routing', function ($router) {
+            $this->addAlbumsRoutes($router);
+        });
     }
 
     public function register()
@@ -34,9 +37,7 @@ class VoyagerAwesomeAlbumsServiceProvider extends ServiceProvider
                 $this->addAlbumsMenuItem($menu);
             });
 
-            app(Dispatcher::class)->listen('voyager.admin.routing', function ($router) {
-                $this->addAlbumsRoutes($router);
-            });
+
             $this->registerPublishableResources();
 
         }

@@ -6,6 +6,7 @@ return array (
   'panel' => 
   array (
 
+
     'package_name' => 'Voyager Awesome Album',
     'package_detail' => 'Voyager Admin için Hızlı Kolay Resim Albümleri',
     'warning_title' => 'Upss.',
@@ -50,6 +51,7 @@ return array (
   'multiple_image_upload_info' => 'Çoklu resim yükleme açık durumda birden fazla resim seçtiğiniz taktirde aynı isim ve sıra ile kayıt edicektir.',
   'album_post' => 
   array (
+
     'album_name' => 'Albüm Adı',
     'album_image' => 'Kapak Resmi',
     'slug' => 'Slug',
@@ -77,6 +79,7 @@ return array (
   ),
   'album_image_post' => 
   array (
+      'author' => 'Yazar',
     'album_name' => 'Resim Başlığı',
     'album_image' => 'Resimler',
     'sort' => 'Sıra',

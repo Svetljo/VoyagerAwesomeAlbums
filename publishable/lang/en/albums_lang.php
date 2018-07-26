@@ -1,6 +1,8 @@
 <?php
 
 return array (
+    'package_name' => 'Voyager Awesome Albums',
+    'package_detail' => 'Voyager Admin için Hızlı Kolay Resim Albümleri',
   'panel' =>
   array (
 
@@ -51,6 +53,7 @@ return array (
   'multiple_image_upload_info' => 'If you select more than one image in the open state, multiple image upload will record with the same name and sequence.',
   'album_post' => 
   array (
+
     'slug' => 'Slug',
     'album_image' => 'Cover Image',
     'album_name' => 'Album Name',
@@ -78,6 +81,7 @@ return array (
   ),
   'album_image_post' => 
   array (
+      'author' => 'Author',
     'album_image' => 'Images',
     'album_name' => 'Image Heading',
     'sort' => 'Sort',
