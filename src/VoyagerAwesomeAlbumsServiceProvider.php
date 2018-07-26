@@ -33,9 +33,7 @@ class VoyagerAwesomeAlbumsServiceProvider extends ServiceProvider
         if(request()->is(config('voyager.prefix')) || request()->is(config('voyager.prefix').'/*')){
             $this->addAlbumsTable();
 
-            app(Dispatcher::class)->listen('voyager.menu.display', function ($menu) {
-                $this->addAlbumsMenuItem($menu);
-            });
+
 
 
             $this->registerPublishableResources();
@@ -413,6 +411,9 @@ class VoyagerAwesomeAlbumsServiceProvider extends ServiceProvider
     }
     private function registerPublishableResources()
     {
+        app(Dispatcher::class)->listen('voyager.menu.display', function ($menu) {
+            $this->addAlbumsMenuItem($menu);
+        });
         $publishablePath = __DIR__.'/../publishable';
 
         $publishable = [
