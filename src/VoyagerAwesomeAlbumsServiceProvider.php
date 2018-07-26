@@ -229,7 +229,7 @@ class VoyagerAwesomeAlbumsServiceProvider extends ServiceProvider
             ]
         );
         $name='{"validation":{"rule":"required|max:25","messages":{"required":"This :attribute field is a must.","max":"This :Maximum 25 Char."}}}';
-        $cover_image='{"validation":{"rule":"image|mimes:jpeg,png,jpg,gif|max:2048|dimensions:max_width=1000,max_height=1000,min_width=250,min_height=250,ratio=1/1","messages":{"image":"This: Picture Only.","mimes":"This: jpeg,png,jpg,gif and max 2048kb Only","max":"This: Max 2048kb   ","dimensions":"minimum 250x250 maximum 1000x1000 aspect ratio 1/1","dimensions.ratio":"This :aspect ratio 1/1 only."}}}';
+        $cover_image='';//'{"validation":{"rule":"image|mimes:jpeg,png,jpg,gif|max:2048|dimensions:max_width=1000,max_height=1000,min_width=250,min_height=250,ratio=1/1","messages":{"image":"This: Picture Only.","mimes":"This: jpeg,png,jpg,gif and max 2048kb Only","max":"This: Max 2048kb   ","dimensions":"minimum 250x250 maximum 1000x1000 aspect ratio 1/1","dimensions.ratio":"This :aspect ratio 1/1 only."}}}';
         $slug='{"slugify":{"origin":"name"}}';
         $status='{"on":"Active","off":"Passive","checked":"true"}';
         DB::table('data_rows')->insert(
@@ -326,7 +326,7 @@ class VoyagerAwesomeAlbumsServiceProvider extends ServiceProvider
             ]
         );
         $name2='{"validation":{"rule":"max:55","messages":{"max":"This :Maximum 55 Char."}}}';
-        $image='{"validation":{"rule":"image|mimes:jpeg,png,jpg,gif|max:2048|dimensions:max_width=1600,max_height=1600,min_width=250,min_height=250","messages":{"image":"This: Picture Only.","mimes":"This: jpeg,png,jpg,gif and max 2048kb Only","max":"This: Max 2048kb   ","dimensions":"minimum 250x250 maximum 1600x1600","dimensions.ratio":"This :aspect ratio 1/1 only."}}}';
+        $image='';//  '{"validation":{"rule":"image|mimes:jpeg,png,jpg,gif|max:2048|dimensions:max_width=1600,max_height=1600,min_width=250,min_height=250","messages":{"image":"This: Picture Only.","mimes":"This: jpeg,png,jpg,gif and max 2048kb Only","max":"This: Max 2048kb   ","dimensions":"minimum 250x250 maximum 1600x1600","dimensions.ratio":"This :aspect ratio 1/1 only."}}}'
         $sort='';
         $voyager_albums_id='';
         DB::table('data_rows')->insert(
