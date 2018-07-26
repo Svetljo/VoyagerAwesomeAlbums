@@ -33,7 +33,7 @@ Resim Sırası Belirleyebilme
 
 </pre>
 <h3>Required for:</h3>
-Voyager Admin v1.1
+Voyager Admin v1.0
  
 
 <h2>Install</h2>
