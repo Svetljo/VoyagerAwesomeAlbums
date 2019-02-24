@@ -1,6 +1,6 @@
 <?php
 
-namespace VoyagerAlbums\Models;
+namespace trker\VoyagerAwesomeAlbums\Models;
 
 use TCG\Voyager\Traits\Translatable;
 use Illuminate\Database\Eloquent\Model;
